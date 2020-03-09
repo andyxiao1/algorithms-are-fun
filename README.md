@@ -60,11 +60,11 @@ typedef pair<int, int> pi;
 ## Data Structures
 #### array
 ```C++
-int [] = {1,2,3};
-int [5];
-int [5] = {1,2,3};
-int [5] {1};
-int [3][5]; // multidimensional 3x5 array
+int arr[] = {1,2,3};
+int arr[5];
+int arr[5] = {1,2,3};
+int arr[5] {1};
+int arr[3][5]; // multidimensional 3x5 array
 ```
 
 #### vector
