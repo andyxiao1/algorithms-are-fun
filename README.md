@@ -72,6 +72,7 @@ int arr[3][5]; // multidimensional 3x5 array
 vector<int> v;
 vector<int> v(10, 4); // size 10, default value 4
 vector<int> v = {2,3,4};
+v[0]; // can index in like a normal array
 v.push_back(4);
 v.back();
 v.pop_back(); // doesn’t return anything?
@@ -137,8 +138,32 @@ for (auto it = s.begin(); it != s.end(); it++) {
 // print largest element in set
 auto it = s.end(); it--;
 cout << *it << "\n";
+
+s.lower_bound(x); // returns iterator to smallest elt >= than x
+s.upper_bound(x); // returns iterator to smallest elt > than x
+// both return end if DNE
 ```
 
+#### lower_bound/upper_bound Functions
+```C++
+int unsorted[10] = { 3, 3, 2, 1, 5, 5, 4, 3, 7, 8 };
+vector<int> v(unsorted, unsorted + 10);
+sorted(v.begin(), v.end());
+auto k = lower_bound(array,array+n,x)-array;
+auto low = lower_bound(v.begin(), v.end(), 3);
+auto up = upper_bound(v.begin(), v.end(), 5);
+cout << "lower_bound at position " << (low - v.begin()) << '\n'; 
+cout << "upper_bound at position " << (up - v.begin()) << '\n';
+```
+
+#### Other Data Structures
+* Bitset: array of bits `bitset<10> s;`, `s.count();` returns the number of 1's, easy bit operations `a&b|c^d;`
+* Deque: dynamic array that is O(1) on ends `deque<int> d;` Has `push_front(x)` and `pop_front()`, which is unavailable with vectors
+* Stack: O(1) push/pop; `stack<int> s;`, has `push(x)`, `top()`, and `pop()`
+* Queue: 
+*Priority Queue:
+-Priority Queue:
+- Priority Queue:
 
 
 #### Code Forces
