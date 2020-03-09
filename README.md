@@ -164,12 +164,20 @@ cout << "upper_bound at position " << (up - v.begin()) << '\n';
 * Priority Queue: insertion/retrieval/removal, default max heap; `priority_queue<int> q;`, `push(x)`, `pop()`, `top()`, and `priority_queue<int,vector<int>,greater<int>> q;` for  min heap
 * Policy Based Data Structures: data structures not a part of the standard library
 
-#### Code Forces
+#### Codeforces/AtCoder
 ```
 Div 2 > Div 1
 Div 1 A = Div 2 C
 Div 1 B = Div 2 D
 Div 1 C = Div 2 E
+AtCoder Beginner Contest (ABC) > 42 has english
+R500 - R700 - R900 - R1400
+First 15 min - B, 30 min - C
+Aim to solve C (ABC) in 10 minutes and D (ABC) in 20 minutes
+AtCoder Regular Contect (ARC)
+R900 – R1400 – R2100 – R2600
+https://kenkoooo.com/atcoder#/table//
+https://atcoder.jp/
 ```
 
 #### Other Notes
