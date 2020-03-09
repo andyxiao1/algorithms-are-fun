@@ -160,11 +160,9 @@ cout << "upper_bound at position " << (up - v.begin()) << '\n';
 * Bitset: array of bits `bitset<10> s;`, `s.count();` returns the number of 1's, easy bit operations `a&b|c^d;`
 * Deque: dynamic array that is O(1) on ends `deque<int> d;` Has `push_front(x)` and `pop_front()`, which is unavailable with vectors
 * Stack: O(1) push/pop; `stack<int> s;`, has `push(x)`, `top()`, and `pop()`
-* Queue: 
-*Priority Queue:
--Priority Queue:
-- Priority Queue:
-
+* Queue: O(1) access first/last elt; `queue<int> q;`, `push(x)`, `pop()`, `front()`
+* Priority Queue: insertion/retrieval/removal, default max heap; `priority_queue<int> q;`, `push(x)`, `pop()`, `top()`, and `priority_queue<int,vector<int>,greater<int>> q;` for  min heap
+* Policy Based Data Structures: data structures not a part of the standard library
 
 #### Code Forces
 ```
