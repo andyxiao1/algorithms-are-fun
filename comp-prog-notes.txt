@@ -1,0 +1,84 @@
+Algorithms/Techniques
+- Manacher's Algorithm
+- Sliding Windows
+- Storing Last Index of Char - Sliding Window
+- Moores Voting Law - Majority Elt
+- 2 Pointers - start from ends, beginning, case and move in a certain direction
+- Floyd Cylce Detection - Fast Slow Pointers
+- Simulate vs Mathematical Property
+- High Low Technique
+- Kadane's Algorithm
+- Next Highest Permutation
+    - Iterate backwards
+    - Find first point you decrease in value
+    - Find next largest after decrease
+    - Swap and reverse
+    - <= to account for duplicated
+
+Data Structures
+- Tries
+- Union Find
+- Heap
+- Counter
+- Defaultdict
+
+Problems
+-  Depth one
+-  Subset Sum - DP
+-  Edit Distance - DP
+-  Longest Repeated Sequence ??? TODO
+-  Max Subarray - Kadane’s Algo
+-  LRU Cache
+-  Calendar 1, 2
+-  K Sorted Arrays
+-  Longest Substring Without Repeating
+-  Isomorphic
+-  Prefix/Infix
+-  Friend Problem Ordering Networks
+-  ABC??
+-  Sum of Valid Palindromes - hr.gs/palindrome-1
+
+Competitive Programming Stuff
+codechef long tournaments
+codeforces short time - purple = ok , pink == good￼
+1900
+clist.by
+
+code forces - pink
+project euler
+lc, hackerrank
+topcoder - 
+google kickstart
+spoj
+
+Read Question
+Clarification - run through test cases
+Take some time to think - think out loud
+Explain solution
+Go over runtime/space
+Confirm with interviewer if you should code up the solution
+
+— go over edge cases
+
+code up solution
+run through a test case
+consider edge cases
+
+what assumption can help us
+
+1. Are you clarifying the problem? (i.e. what should the output be if the input is null or invalid?)
+2. You also write down some sample input and desired output.
+3. Talk through your ideas before you touch the keyboard or white board. (i.e. I think I could solve this using two pointers, one fast and one slow, ....)
+4. They may ask you for your runtime and space usage. They might also ask you to come up with something better.
+5. Ask if you should code up your solution, they may ask for something better first. Then code it up.
+6. Try your inputs and run through your code to make sure the output is correct.
+
+
+
+
+Div 2 > Div 1
+Div 1 A = Div 2 C
+Div 1 B = Div 2 D
+Div 1 C = Div 2 E
+
+
