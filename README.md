@@ -7,12 +7,12 @@ echo "test" > in
 ./a < in
 cat in
 ```
-`>>` redirects output of command on LHS to the end of the file on the RHS
-`>` does the same as `>>`, but replaces RHS instead of appending to it
+`>>` redirects output of command on LHS to the end of the file on the RHS\
+`>` does the same as `>>`, but replaces RHS instead of appending to it\
 
 #### Sublime Layout Formatting
-View -> Layout -> 3 Columns
-View -> Groups -> Max Columns: 2
+View -> Layout -> 3 Columns\
+View -> Groups -> Max Columns: 2\
 
 #### C++ Starter Template
 ```C++
