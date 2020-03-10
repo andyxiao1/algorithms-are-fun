@@ -8,11 +8,11 @@ echo "test" > in
 cat in
 ```
 `>>` redirects output of command on LHS to the end of the file on the RHS\
-`>` does the same as `>>`, but replaces RHS instead of appending to it\
+`>` does the same as `>>`, but replaces RHS instead of appending to it
 
 #### Sublime Layout Formatting
 View -> Layout -> 3 Columns\
-View -> Groups -> Max Columns: 2\
+View -> Groups -> Max Columns: 2
 
 #### C++ Starter Template
 ```C++
@@ -35,13 +35,13 @@ while (cin >> x) {
 ```
 
 #### Types
-`int` - 32 bit `-2*10^9...2*10^9`
+`int` - 32 bit `-2*10^9...2*10^9`\
 `long long` - 64 bit `-9*10^18...9*10^18` might need LL at the end (not sure)
 
-floats - `double` and `long double`
-`printf(“%.9f”, d); // formats to 9 decimal places`
-comparing doubles may not be exact use:
-`if (abs(a-b) < 1e-9) { // a and b are equal }`
+floats - `double` and `long double`\
+`printf(“%.9f”, d); // formats to 9 decimal places`\
+comparing doubles may not be exact use:\
+`if (abs(a-b) < 1e-9) { // a and b are equal }`\
 
 #### Typedefs
 ```C++
@@ -113,7 +113,7 @@ for (auto x : m) {}
 ```
 
 #### iterators & ranges
-iterator = pointer to an element in a data structure
+iterator = pointer to an element in a data structure\
 begin/end = commonly used iterators that point to first element and the position after the last element (half open range)
 ```C++
 // vector ranges
@@ -181,9 +181,9 @@ https://atcoder.jp/
 ```
 
 #### Other Notes
-assembler - asm -> obj file
-compiler - high level prog language -> obj file
-`::` is the scope resolution operator
+assembler - asm -> obj file\
+compiler - high level prog language -> obj file\
+`::` is the scope resolution operator\
 `auto` is a placeholder type
 
 #### Topics Covered
