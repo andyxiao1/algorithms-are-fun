@@ -170,7 +170,7 @@ Div 2 > Div 1
 Div 1 A = Div 2 C
 Div 1 B = Div 2 D
 Div 1 C = Div 2 E
-AtCoder Beginner Contest (ABC) > 42 has english
+AtCoder Beginner Contest (ABC) 42 to 125
 R500 - R700 - R900 - R1400
 First 15 min - B, 30 min - C
 Aim to solve C (ABC) in 10 minutes and D (ABC) in 20 minutes
