@@ -4,6 +4,7 @@
 ```
 g++ -std=c++11 -O2 -Wall a.cpp -o a
 echo "test" > in
+cat > in <Text>
 ./a < in
 cat in
 ```
